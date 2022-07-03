@@ -1,4 +1,4 @@
-import { DECREMENT, INCREMENT, RESET } from "../constants/counterConstants";
+import { DECREMENT, INCREMENT, RESET } from "../constants/counterConstant";
 
 const initialState = { count: 0 };
 

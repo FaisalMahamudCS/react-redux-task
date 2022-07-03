@@ -6,7 +6,7 @@ import {
     resetCounter,
   } from "../services/actions/counterAction";
 
-const Counter = () => {
+const Counter3 = () => {
     const count=useSelector((state)=>state.count);
     const dispatch=useDispatch();
     const handleIncrement = () => {
@@ -23,8 +23,8 @@ const Counter = () => {
     return (
         <div className='card container mt-5'>
            <div className='card-body'>
-            <h3>Counter </h3>
-            <h4>Count : {count}</h4>
+            <h1>Counter 3</h1>
+            <h2>Count : {count}</h2>
             <button className='btn btn-success m-2' onClick={handleIncrement}>+</button>
             <button className='btn btn-warning m-2 ' onClick={handleReset}>Reset</button>
             <button className='btn btn-danger m-2' onClick={handleDecrement}>-</button>
@@ -33,4 +33,4 @@ const Counter = () => {
     );
 };
 
-export default Counter;
+export default Counter3;
